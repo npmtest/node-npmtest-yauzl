@@ -1,4 +1,7 @@
-# test coverage for  [yauzl (v2.7.0)](https://github.com/thejoshwolfe/yauzl)  [![npm package](https://img.shields.io/npm/v/npmtest-yauzl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yauzl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yauzl.svg)](https://travis-ci.org/npmtest/node-npmtest-yauzl)
+# npmtest-yauzl
+
+#### basic test coverage for  [yauzl (v2.7.0)](https://github.com/thejoshwolfe/yauzl)  [![npm package](https://img.shields.io/npm/v/npmtest-yauzl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yauzl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yauzl.svg)](https://travis-ci.org/npmtest/node-npmtest-yauzl)
+
 #### yet another unzip library for node
 
 [![NPM](https://nodei.co/npm/yauzl.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/yauzl)
@@ -86,7 +89,8 @@
         "test-cov": "istanbul cover test/test.js",
         "test-travis": "istanbul cover --report lcovonly test/test.js"
     },
-    "version": "2.7.0"
+    "version": "2.7.0",
+    "bin": {}
 }
 ```
 
