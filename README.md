@@ -1,6 +1,6 @@
 # npmtest-yauzl
 
-#### basic test coverage for  [yauzl (v2.7.0)](https://github.com/thejoshwolfe/yauzl)  [![npm package](https://img.shields.io/npm/v/npmtest-yauzl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yauzl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yauzl.svg)](https://travis-ci.org/npmtest/node-npmtest-yauzl)
+#### basic test coverage for  [yauzl (v2.8.0)](https://github.com/thejoshwolfe/yauzl)  [![npm package](https://img.shields.io/npm/v/npmtest-yauzl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yauzl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yauzl.svg)](https://travis-ci.org/npmtest/node-npmtest-yauzl)
 
 #### yet another unzip library for node
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-yauzl/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-yauzl/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-yauzl/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-yauzl/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-yauzl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-yauzl/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-yauzl/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-yauzl/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-yauzl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-yauzl/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-yauzl/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-yauzl/build/coverage.html/index.html)
 
@@ -53,13 +53,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "e21d847868b496fc29eaec23ee87fdd33e9b2bce",
-        "tarball": "https://registry.npmjs.org/yauzl/-/yauzl-2.7.0.tgz"
+        "shasum": "79450aff22b2a9c5a41ef54e02db907ccfbf9ee2",
+        "tarball": "https://registry.npmjs.org/yauzl/-/yauzl-2.8.0.tgz"
     },
     "files": [
         "index.js"
     ],
-    "gitHead": "1f5cb3dc6f4e9d4df06e96c665af52e576616cc3",
+    "gitHead": "1107f1a42f39ff73c2f2b95c2824d1eba3a2955e",
     "homepage": "https://github.com/thejoshwolfe/yauzl",
     "keywords": [
         "unzip",
@@ -89,7 +89,7 @@
         "test-cov": "istanbul cover test/test.js",
         "test-travis": "istanbul cover --report lcovonly test/test.js"
     },
-    "version": "2.7.0",
+    "version": "2.8.0",
     "bin": {}
 }
 ```
